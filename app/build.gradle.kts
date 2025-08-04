@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.luck.pictureselector"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.luck.pictureselector"
         minSdk = 21
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 93
         versionName = "v3.11.2"
     }
@@ -48,11 +48,11 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "21"
+        jvmTarget = "17"
     }
     buildFeatures {
         viewBinding = true

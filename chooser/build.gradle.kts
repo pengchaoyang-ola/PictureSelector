@@ -11,7 +11,7 @@ plugins {
 
 android {
     namespace = "spa.lyh.cn.chooser"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 19
@@ -28,11 +28,11 @@ android {
         }
     }
     kotlinOptions {
-        jvmTarget = "21"
+        jvmTarget = "17"
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
